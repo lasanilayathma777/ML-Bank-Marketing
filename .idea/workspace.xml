@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6671222a-8683-4076-8eba-382ae4dc6138" name="Changes" comment="Add EDA: shape/type checks, missing values, target distribution, unknown value and pdays checks">
-      <change afterPath="$PROJECT_DIR$/Notebooks/DecissionTree.py" afterDir="false" />
+    <list default="true" id="6671222a-8683-4076-8eba-382ae4dc6138" name="Changes" comment="Add preprocessing: pdays handling, one-hot encoding, train/test split, scaling">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notebooks/Preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/Preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks/DecissionTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/DecissionTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks/EDA.py" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/EDA.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +47,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.DecissionTree.executor": "Run",
     "Python.EDA.executor": "Run",
     "Python.Preprocessing.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -60,7 +61,29 @@
       <recent name="C:\Users\Sachith Lakshan\Downloads\PythonProject\Data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Preprocessing">
+  <component name="RunManager" selected="Python.DecissionTree">
+    <configuration name="DecissionTree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ML-CW" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Notebooks" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Notebooks/DecissionTree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="EDA" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ML-CW" />
       <option name="ENV_FILES" value="" />
@@ -107,6 +130,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DecissionTree" />
         <item itemvalue="Python.Preprocessing" />
         <item itemvalue="Python.EDA" />
       </list>
@@ -143,7 +167,23 @@
       <option name="project" value="LOCAL" />
       <updated>1784182259868</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add preprocessing: pdays handling, one-hot encoding, train/test split, scaling">
+      <option name="closed" value="true" />
+      <created>1784259870057</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1784259870057</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add preprocessing: pdays handling, one-hot encoding, train/test split, scaling">
+      <option name="closed" value="true" />
+      <created>1784259909068</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1784259909068</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,6 +200,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1st commit-building teh structure" />
     <MESSAGE value="Add EDA: shape/type checks, missing values, target distribution, unknown value and pdays checks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add EDA: shape/type checks, missing values, target distribution, unknown value and pdays checks" />
+    <MESSAGE value="Add preprocessing: pdays handling, one-hot encoding, train/test split, scaling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add preprocessing: pdays handling, one-hot encoding, train/test split, scaling" />
   </component>
 </project>
