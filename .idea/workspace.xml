@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6671222a-8683-4076-8eba-382ae4dc6138" name="Changes" comment="Update Preprocessing plus Decision Tree implementation">
+    <list default="true" id="6671222a-8683-4076-8eba-382ae4dc6138" name="Changes" comment="Modify Preprocessing and DT model.">
+      <change afterPath="$PROJECT_DIR$/Notebooks/NeuralNetwork.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notebooks/Preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/Preprocessing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +48,8 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.DecissionTree.executor": "Run",
     "Python.EDA.executor": "Run",
+    "Python.NeuralNetwork.executor": "Run",
+    "Python.NueralNetwork.executor": "Run",
     "Python.Preprocessing.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -60,7 +62,7 @@
       <recent name="C:\Users\Sachith Lakshan\Downloads\PythonProject\Data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Preprocessing">
+  <component name="RunManager" selected="Python.NeuralNetwork">
     <configuration name="DecissionTree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ML-CW" />
       <option name="ENV_FILES" value="" />
@@ -105,6 +107,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="NeuralNetwork" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ML-CW" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Notebooks" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Sachith Lakshan\Downloads\PythonProject\Notebooks\NeuralNetwork.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Preprocessing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ML-CW" />
       <option name="ENV_FILES" value="" />
@@ -129,6 +153,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.NeuralNetwork" />
         <item itemvalue="Python.Preprocessing" />
         <item itemvalue="Python.DecissionTree" />
         <item itemvalue="Python.EDA" />
@@ -190,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784280321970</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Modify Preprocessing and DT model.">
+      <option name="closed" value="true" />
+      <created>1784430376471</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1784430376471</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,6 +242,7 @@
     <MESSAGE value="Add EDA: shape/type checks, missing values, target distribution, unknown value and pdays checks" />
     <MESSAGE value="Add preprocessing: pdays handling, one-hot encoding, train/test split, scaling" />
     <MESSAGE value="Update Preprocessing plus Decision Tree implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Preprocessing plus Decision Tree implementation" />
+    <MESSAGE value="Modify Preprocessing and DT model." />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify Preprocessing and DT model." />
   </component>
 </project>
