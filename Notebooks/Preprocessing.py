@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
 DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "Data", "bank-full.csv")
-
+PROCESSED_PATH = os.path.join(os.path.dirname(__file__), "..", "Data", "bank_processed.csv")
 
 #Load the data
 def load_data():
@@ -47,6 +47,13 @@ def encode_categorical(df):
     print("Columns after encoding:", df_encoded.shape[1])
     return df_encoded
 
+def save_processed_data(df_encoded):
+    print("\nSaving processed dataset\n")
+
+    df_encoded.to_csv(PROCESSED_PATH, index=False)
+
+    print(f"Saved processed dataset to: {PROCESSED_PATH}")
+    print(f"Shape: {df_encoded.shape}")
 
 #Split into train and test sets
 def split_data(df_encoded):
@@ -84,6 +91,7 @@ def main():
     df = load_data()
     df = handle_pdays(df)
     df_encoded = encode_categorical(df)
+    save_processed_data(df_encoded)
     X_train, X_test, y_train, y_test = split_data(df_encoded)
     X_train, X_test = scale_numeric(X_train, X_test)
 

@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6671222a-8683-4076-8eba-382ae4dc6138" name="Changes" comment="Add preprocessing: pdays handling, one-hot encoding, train/test split, scaling">
+    <list default="true" id="6671222a-8683-4076-8eba-382ae4dc6138" name="Changes" comment="Update Preprocessing plus Decision Tree implementation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notebooks/DecissionTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/DecissionTree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notebooks/EDA.py" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/EDA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks/Preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/Preprocessing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,7 @@
       <recent name="C:\Users\Sachith Lakshan\Downloads\PythonProject\Data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.DecissionTree">
+  <component name="RunManager" selected="Python.Preprocessing">
     <configuration name="DecissionTree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ML-CW" />
       <option name="ENV_FILES" value="" />
@@ -130,8 +129,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.DecissionTree" />
         <item itemvalue="Python.Preprocessing" />
+        <item itemvalue="Python.DecissionTree" />
         <item itemvalue="Python.EDA" />
       </list>
     </recent_temporary>
@@ -183,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784259909068</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update Preprocessing plus Decision Tree implementation">
+      <option name="closed" value="true" />
+      <created>1784280321970</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1784280321970</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,6 +208,7 @@
     <MESSAGE value="1st commit-building teh structure" />
     <MESSAGE value="Add EDA: shape/type checks, missing values, target distribution, unknown value and pdays checks" />
     <MESSAGE value="Add preprocessing: pdays handling, one-hot encoding, train/test split, scaling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add preprocessing: pdays handling, one-hot encoding, train/test split, scaling" />
+    <MESSAGE value="Update Preprocessing plus Decision Tree implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Preprocessing plus Decision Tree implementation" />
   </component>
 </project>
