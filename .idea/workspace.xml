@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6671222a-8683-4076-8eba-382ae4dc6138" name="Changes" comment="Modify Preprocessing and DT model.">
-      <change afterPath="$PROJECT_DIR$/Notebooks/NeuralNetwork.py" afterDir="false" />
+    <list default="true" id="6671222a-8683-4076-8eba-382ae4dc6138" name="Changes" comment="Implementing NN model">
+      <change afterPath="$PROJECT_DIR$/Notebooks/ModelComparison.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks/EDA.py" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/EDA.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +49,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.DecissionTree.executor": "Run",
     "Python.EDA.executor": "Run",
+    "Python.ModelComparison.executor": "Run",
     "Python.NeuralNetwork.executor": "Run",
     "Python.NueralNetwork.executor": "Run",
     "Python.Preprocessing.executor": "Run",
@@ -62,7 +64,7 @@
       <recent name="C:\Users\Sachith Lakshan\Downloads\PythonProject\Data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.NeuralNetwork">
+  <component name="RunManager" selected="Python.ModelComparison">
     <configuration name="DecissionTree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ML-CW" />
       <option name="ENV_FILES" value="" />
@@ -99,6 +101,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Notebooks/EDA.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ModelComparison" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ML-CW" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Notebooks" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Notebooks/ModelComparison.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,6 +177,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ModelComparison" />
         <item itemvalue="Python.NeuralNetwork" />
         <item itemvalue="Python.Preprocessing" />
         <item itemvalue="Python.DecissionTree" />
@@ -223,7 +248,23 @@
       <option name="project" value="LOCAL" />
       <updated>1784430376471</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Implementing NN model">
+      <option name="closed" value="true" />
+      <created>1784478712641</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1784478712641</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Implementing NN model">
+      <option name="closed" value="true" />
+      <created>1784478734758</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1784478734758</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -243,6 +284,7 @@
     <MESSAGE value="Add preprocessing: pdays handling, one-hot encoding, train/test split, scaling" />
     <MESSAGE value="Update Preprocessing plus Decision Tree implementation" />
     <MESSAGE value="Modify Preprocessing and DT model." />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify Preprocessing and DT model." />
+    <MESSAGE value="Implementing NN model" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementing NN model" />
   </component>
 </project>
