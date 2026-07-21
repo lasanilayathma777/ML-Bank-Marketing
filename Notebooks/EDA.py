@@ -125,6 +125,67 @@ def boxplots(df):
     plt.close()
     print("Saved chart:", os.path.join(OUTPUT_DIR, "boxplots.png"))
 
+#Histograms - show the shape of each numeric feature's distribution
+def histograms(df):
+    print("\nHistograms\n")
+
+    numeric_cols = ["age", "balance", "duration", "campaign", "pdays", "previous"]
+
+    fig, axes = plt.subplots(2, 3, figsize=(15, 8))
+    axes = axes.flatten()
+    for ax, col in zip(axes, numeric_cols):
+        ax.hist(df[col], bins=30, color="salmon", edgecolor="black")
+        ax.set_title(f"Distribution of {col}")
+        ax.set_xlabel(col)
+        ax.set_ylabel("Frequency")
+    plt.suptitle("Histograms of Numeric Features")
+    plt.tight_layout()
+    plt.savefig(os.path.join(OUTPUT_DIR, "histograms.png"))
+    plt.close()
+    print("Saved chart:", os.path.join(OUTPUT_DIR, "histograms.png"))
+
+
+#Bar plots - distribution of key categorical features
+def categorical_bar_plots(df):
+    print("\nCategorical bar plots\n")
+
+    categorical_cols = ["job", "marital", "education", "default",
+                         "housing", "loan", "contact", "poutcome"]
+
+    fig, axes = plt.subplots(2, 4, figsize=(20, 10))
+    axes = axes.flatten()
+    for ax, col in zip(axes, categorical_cols):
+        counts = df[col].value_counts()
+        ax.bar(counts.index, counts.values, color="skyblue", edgecolor="black")
+        ax.set_title(f"{col} Distribution")
+        ax.tick_params(axis="x", rotation=45)
+    plt.suptitle("Bar Plots: Categorical Feature Distributions")
+    plt.tight_layout()
+    plt.savefig(os.path.join(OUTPUT_DIR, "categorical_bar_plots.png"))
+    plt.close()
+    print("Saved chart:", os.path.join(OUTPUT_DIR, "categorical_bar_plots.png"))
+
+
+#Count plots - categorical features compared against the target (y)
+def categorical_count_plots(df):
+    print("\nCategorical count plots vs target\n")
+
+    categorical_cols = ["job", "marital", "education", "default",
+                         "housing", "loan", "contact", "poutcome"]
+
+    fig, axes = plt.subplots(2, 4, figsize=(22, 10))
+    axes = axes.flatten()
+    for ax, col in zip(axes, categorical_cols):
+        cross = pd.crosstab(df[col], df["y"])
+        cross.plot(kind="bar", ax=ax, color=["lightblue", "salmon"])
+        ax.set_title(f"{col} vs y")
+        ax.tick_params(axis="x", rotation=45)
+        ax.legend(title="y")
+    plt.suptitle("Count Plots: Categorical Features with Target Comparison")
+    plt.tight_layout()
+    plt.savefig(os.path.join(OUTPUT_DIR, "categorical_count_plots.png"))
+    plt.close()
+    print("Saved chart:", os.path.join(OUTPUT_DIR, "categorical_count_plots.png"))
 
 def main():
     df = load_data()
@@ -134,7 +195,9 @@ def main():
     check_pdays(df)
     correlation_matrix(df)
     boxplots(df)
-
+    histograms(df)
+    categorical_bar_plots(df)
+    categorical_count_plots(df)
 
 if __name__ == "__main__":
     main()

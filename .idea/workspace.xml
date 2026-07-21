@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6671222a-8683-4076-8eba-382ae4dc6138" name="Changes" comment="Implementing NN model">
-      <change afterPath="$PROJECT_DIR$/Notebooks/ModelComparison.py" afterDir="false" />
+    <list default="true" id="6671222a-8683-4076-8eba-382ae4dc6138" name="Changes" comment="Add model comparison with ROC curves, PR curves, confusion matrices and metrics comparison">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notebooks/EDA.py" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/EDA.py" afterDir="false" />
     </list>
@@ -64,7 +63,7 @@
       <recent name="C:\Users\Sachith Lakshan\Downloads\PythonProject\Data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ModelComparison">
+  <component name="RunManager" selected="Python.EDA">
     <configuration name="DecissionTree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ML-CW" />
       <option name="ENV_FILES" value="" />
@@ -177,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.EDA" />
         <item itemvalue="Python.ModelComparison" />
         <item itemvalue="Python.NeuralNetwork" />
         <item itemvalue="Python.Preprocessing" />
         <item itemvalue="Python.DecissionTree" />
-        <item itemvalue="Python.EDA" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +263,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784478734758</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add model comparison with ROC curves, PR curves, confusion matrices and metrics comparison">
+      <option name="closed" value="true" />
+      <created>1784519825553</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1784519825553</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -285,6 +292,7 @@
     <MESSAGE value="Update Preprocessing plus Decision Tree implementation" />
     <MESSAGE value="Modify Preprocessing and DT model." />
     <MESSAGE value="Implementing NN model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementing NN model" />
+    <MESSAGE value="Add model comparison with ROC curves, PR curves, confusion matrices and metrics comparison" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add model comparison with ROC curves, PR curves, confusion matrices and metrics comparison" />
   </component>
 </project>
